@@ -56,7 +56,7 @@ if ranBefore == False or choice == 'c':
     client.activate()
 
     print("\nPlease enter your preferred agent.")
-    print("_" * 80, end="\n")
+    print("_" * 50, end="\n")
     preAgent = input(f"Preferred agent: ").lower()
     preferredAgent = find_most_similar_string(preAgent, allAgents)
     print("Set preferred agent to: {}".format(preferredAgent))
